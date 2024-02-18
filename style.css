@@ -1,0 +1,148 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+
+    text-align: center;
+}
+
+#sss {
+    width: 100%;
+    height: 580px;
+}
+
+#welcome {
+    margin: 0px;
+    /* background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(/images/tic_tac.png); */
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 580px;
+    background-color: aqua;
+    background-image: url(images/tic_tac.png);
+    background-size: cover;
+    /* flex-wrap: wrap; */
+}
+.pppp #Start{
+    margin-top: 100px;
+    width: 180px;
+    height: 40px;
+    background-color: rgb(96, 106, 193);
+    border: none;
+    font-size: 20px;
+    box-shadow: 2px 3px 2px rgb(129, 129, 239);
+}
+.ttt #Comp{
+    margin-top: 80px;
+    width: 180px;
+    height: 40px;
+    background-color: rgb(96, 106, 193);
+    border: none;
+    font-size: 15px;
+    /* font-weight: bold; */
+    box-shadow: 2px 3px 2px rgb(129, 129, 239);
+}
+
+#enter {
+
+    font-size: 2rem;
+}
+
+.all {
+    background-image: none;
+    background-color: rgb(34, 101, 101);
+}
+
+.hhh {
+    display: none;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    background-color: aliceblue;
+    box-shadow: 0 0 0.5rem rgba(231, 237, 237, 0.5);
+}
+
+.img_t {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    /* display: none; */
+}
+
+.hh {
+    display: none;
+}
+
+.box img {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    /* display: none; */
+}
+
+.gg {
+    display: none;
+}
+
+#aaa {
+
+    padding: 1rem;
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bbb {
+    height: 6vh;
+    width: 12vh;
+    background-color: rgb(31, 31, 31);
+    border: none;
+    border-radius: 1vh;
+    color: rgb(99, 112, 125);
+}
+
+#new_btn {
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: rgb(74, 62, 62);
+    color: aliceblue;
+    border-radius: 0.7rem;
+    border: none;
+}
+
+.msg-container {
+    height: 20vh;
+    /* display: none; */
+}
+
+.hide {
+    display: none;
+}
+
+#Comp {
+    margin-top: 20px;
+    align-items: center;
+}
